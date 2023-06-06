@@ -1,10 +1,10 @@
 :root{
 
-    --background: #042326;
-    --green-700: #0a3a40;
-    --green-500: #0f5959;
-    --green-300: #1d7373;
-    --green-100: #107361;
+    --background: #7d3db1;
+    --green-700: #b64de7;
+    --green-500: #a289c9;
+    --green-300: #7710cc;
+    --green-100: #6b39ad;
     --color-white: #eee;
 
 
@@ -93,9 +93,11 @@ main{
 
 .country a{
   background-color: white;
-  font-size: 30px;
+  font-size: 15px;
   padding: 20px 15px; /* o primeiro valor aumenta para cima e para baixo já o segundo pra esqueda e para direita */
-  border-radius: 10px;
+  border-radius: 30px;
   display: inline-block; /* aqui ele não ultrapassa a div*/
-
+  width: 80px;
+  height: 55px;
+  margin-top: 50px;
 }
